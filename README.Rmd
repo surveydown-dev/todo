@@ -19,18 +19,18 @@ knitr::opts_chunk$set(
 ```{r}
 #| eval: true
 
+library(tinytable)
+
 complete <- '<img src="images/check.svg" alt="Check mark" width="20" height="20">'
 incomplete <- '<img src="images/screwdriver-wrench.svg" alt="Screwdriver wrench" width="20" height="20">'
 
-library(tinytable)
-
-features_df <- read.csv(
+todo_df <- read.csv(
     file.path("files", "todo.csv"),
     check.names = FALSE
 )
-features_df$Progress <- ifelse(features_df$Progress == 1, complete, incomplete)
+todo_df$Progress <- ifelse(todo_df$Progress == 1, complete, incomplete)
 
-tt(features_df, theme = "striped") |>
+tt(todo_df, theme = "striped") |>
     style_tt(fontsize = 0.9) |>
     style_tt(j = c(1, 3, 4), align = "c")
 ```
