@@ -30,7 +30,8 @@ todo_df <- read.csv(
 )
 todo_df$Progress <- ifelse(todo_df$Progress == 1, complete, incomplete)
 
-tt(todo_df, theme = "striped") |>
+tt(todo_df, theme = "grid") |>
     style_tt(fontsize = 0.9) |>
+    style_tt(i = 0, align = "c") |>
     style_tt(j = c(1, 3, 4), align = "c")
 ```
