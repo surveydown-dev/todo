@@ -1,0 +1,8 @@
+foo.R
+build.R
+.Rhistory
+.DS_Store
+.Rproj.user
+.vscode
+.Renviron
+README.html

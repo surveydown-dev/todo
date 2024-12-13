@@ -3,23 +3,6 @@
 
 ### Features
 
-``` r
-complete <- '<img src="images/check.svg" alt="Check mark" width="20" height="20">'
-incomplete <- '<img src="images/screwdriver-wrench.svg" alt="Screwdriver wrench" width="20" height="20">'
-
-library(tinytable)
-
-features_df <- read.csv(
-    file.path("files", "todo.csv"),
-    check.names = FALSE
-)
-features_df$Progress <- ifelse(features_df$Progress == 1, complete, incomplete)
-
-tt(features_df, theme = "striped") |>
-    style_tt(fontsize = 0.9) |>
-    style_tt(j = 1, align = "c")
-```
-
 | Progress | Feature |
 |----|----|
 | <img src="images/check.svg" alt="Check mark" width="20" height="20"> | Wide variety of <a href="question-types.html">question types</a> |

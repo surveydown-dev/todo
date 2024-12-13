@@ -1,7 +1,5 @@
 ---
 output: github_document
-echo: false
-warning: false
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit this file -->
@@ -11,7 +9,8 @@ knitr::opts_chunk$set(
   collapse   = TRUE,
   warning    = FALSE,
   message    = FALSE,
-  comment    = "#>"
+  comment    = "#>",
+  echo       = FALSE
 )
 ```
 
