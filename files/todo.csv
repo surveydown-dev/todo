@@ -1,21 +1,21 @@
-Progress,Feature
-1,"Wide variety of <a href=""question-types.html"">question types</a>"
-1,"Ability to <a href=""fetch-data.html#reactive-fetching"">use latest survey results</a> in the survey itself"
-1,"Ability to <a href=""store-data#ignoring-the-supabase-connection"">Ignore the database connection</a>"
-1,"Ability to <a href=""conditional-control#conditional-display"">conditionally display questions</a>"
-1,"Ability to <a href=""conditional-control#conditional-skipping"">conditionally skip to pages</a>"
-1,"Start the survey from a <a href=""server-options#starting-page"">specific page</a> (helpful when editing survey) "
-1,"<a href=""server-options#required-questions"">Require</a> specific questions or all questions be answered"
-1,"Create a random numeric <a href=""reactivity.html#displaying-stored-values-e.g.-a-completion-code"">completion code</a>"
-1,Time stamps recorded for each question and page interaction
-1,"<a href=""server-options#auto-scroll"">Auto scroll</a>  according to the answering progress"
-1,"<a href=""survey-components.html#progress-bar"">Progress bar</a> bar that updates on each question interaction"
-1,"Customizable <a href=""survey-components.html#progress-bar"">progress bar</a> color and position on page"
-1,"<a href=""question-formatting#markdown-formatting"">Markdown formatting</a> for options and buttons"
-1,"<a href=""survey-components.html#changing-the-look-and-feel"">Support for bootstrap themes</a>"
-1,"<a href=""survey-components.html#changing-the-look-and-feel"">Customizable scss theme file</a>"
-1,"<a href=""redirect.html#reactive-redirect"">Pass parameters</a> through the url, e.g. to track user IDs"
-1,"<a href=""redirect.html"">Redirect</a> users to an external url"
-1,"Store session ID in <a href=""server-options#cookie"">browser cookies</a> to store user progress if they refresh the page"
-0,"<a href=""server-options#admin-page"">Admin page</a> with password login to preview / download data, pause survey, etc."
-0,Form validation (limit input based on question type)
+Progress,Feature,Docs,Version Applied
+1,Wide variety of question types,<a href="question-types.html">Question Types</a>,`v0.0.1`
+1,Ability to use latest survey results in the survey itself,<a href="fetch-data.html#reactive-fetching">Fetching Data</a>,`v0.1.1`
+1,Ability to Ignore the database connection,<a href="store-data#ignoring-the-supabase-connection">Supabase Ignore</a>,`v0.0.8`
+1,Ability to conditionally display questions,<a href="conditional-control#conditional-display">Conditional Display</a>,`v0.0.1`
+1,Ability to conditionally skip to pages,<a href="conditional-control#conditional-skipping">Conditional Skipping</a>,`v0.0.1`
+1,Start the survey from a specific page (helpful when editing survey),<a href="server-options#starting-page">Starting Page</a>,`v0.3.0`
+1,Require specific questions or all questions be answered,<a href="server-options#required-questions">Required Questions</a>,`v0.0.2`
+1,Create a random numeric completion code,<a href="reactivity.html#displaying-stored-values-e.g.-a-completion-code">Completion Code</a>,`v0.3.2`
+1,Time stamps recorded for each question and page interaction,-,`v0.0.9`
+1,Auto scroll according to the answering progress,<a href="server-options#auto-scroll">Auto Scroll</a>,`v0.3.3`
+1,Progress bar that updates on each question interaction,<a href="survey-components.html#progress-bar">Progress Bar</a>,`v0.0.9`
+1,Customizable progress bar color and position on page,<a href="survey-components.html#progress-bar">Progress Bar</a>,`v0.0.9`
+1,Markdown formatting for options and buttons,<a href="question-formatting#markdown-formatting">Markdown Formatting</a>,`v0.0.1`
+1,Support for bootstrap themes,<a href="survey-components.html#changing-the-look-and-feel">Themes</a>,`v0.0.4`
+1,Customizable scss theme file,<a href="survey-components.html#changing-the-look-and-feel">Themes</a>,`v0.0.4`
+1,Pass parameters through the url e.g. to track user IDs,<a href="redirect.html#reactive-redirect">Reactive Redirect</a>,`v0.2.2`
+1,Redirect users to an external url,<a href="redirect.html">External Redirect</a>,`v0.2.2`
+1,Store session ID in browser cookies to store user progress if they refresh the page,<a href="server-options#cookie">Cookies</a>,`v0.6.0`
+0,Admin page with password login to preview / download data pause survey etc.,<a href="server-options#admin-page">Admin Page</a>,`v0.0.8`
+0,Form validation (limit input based on question type),-,`v0.2.1`
