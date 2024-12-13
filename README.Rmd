@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-### Features
+### To-Do List
 
 ```{r}
 #| eval: true

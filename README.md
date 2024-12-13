@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit this file -->
 
-### Features
+### To-Do List
 
 | Progress | Feature | Docs | Version |
 |----|----|----|----|
