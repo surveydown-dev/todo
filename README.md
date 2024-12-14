@@ -1,7 +1,11 @@
 
 <!-- README.md is generated from README.Rmd. Please edit this file -->
 
-### To-Do List
+This repo is for keeping track of package features as we build them out.
+The only file that needs to be updated is the
+[todo.csv](https://github.com/surveydown-dev/todo/blob/main/todo.csv)
+file. With each update, a GitHub action runs to re-build this README
+file with an updated table.
 
 | Progress                                                                                                                                                        | Feature                                                                               | Docs                                                                                                                    | Version |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|---------|
