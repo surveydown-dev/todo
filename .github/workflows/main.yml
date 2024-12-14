@@ -24,7 +24,7 @@ jobs:
 
       - name: Install R packages
         run: |
-          install.packages(c('rmarkdown', 'knitr'))
+          install.packages(c('rmarkdown', 'knitr', 'tinytable'))
         shell: Rscript {0}
 
       - name: Render README
