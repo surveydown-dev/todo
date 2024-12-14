@@ -19,19 +19,9 @@ knitr::opts_chunk$set(
 ```{r}
 #| eval: true
 
-library(tinytable)
+source('functions.R')
 
-complete <- '<img src="images/check.svg" alt="Check mark" width="20" height="20">'
-incomplete <- '<img src="images/screwdriver-wrench.svg" alt="Screwdriver wrench" width="20" height="20">'
+todo_df <- read.csv("todo.csv", check.names = FALSE)
 
-todo_df <- read.csv(
-    file.path("files", "todo.csv"),
-    check.names = FALSE
-)
-todo_df$Progress <- ifelse(todo_df$Progress == 1, complete, incomplete)
-
-tt(todo_df, theme = "grid") |>
-    style_tt(fontsize = 0.9) |>
-    style_tt(i = 0, align = "c") |>
-    style_tt(j = c(1, 3, 4), align = "c")
+build_todo_table(todo_df)
 ```
