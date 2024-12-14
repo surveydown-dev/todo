@@ -10,5 +10,5 @@ build_todo_table <- function() {
   tinytable::tt(todo_df, theme = "grid") |>
       tinytable::style_tt(fontsize = 0.9) |>
       tinytable::style_tt(i = 0, align = "c") |>
-      tinytable::style_tt(j = c(1, 3, 4), align = "c")
+      tinytable::style_tt(j = c(1, 3, 4, 5), align = "c")
 }
