@@ -12,14 +12,40 @@ knitr::opts_chunk$set(
   comment    = "#>",
   echo       = FALSE
 )
+
+library(tinytable)
 ```
 
 This repo is for keeping track of package features as we build them out. The only file that needs to be updated is the [todo.csv](https://github.com/surveydown-dev/todo/blob/main/todo.csv) file. With each update, a GitHub action runs to re-build this README file with an updated table.
 
 ```{r}
-#| eval: true
+# Read in todo list
+todo_df <- read.csv("todo.csv", check.names = FALSE)
 
-source('functions.R')
+# Separate incompletes
+incomplete_ids <- which(todo_df$Progress == 0)
+todo_df$Progress <- NULL
+incomplete <- todo_df[incomplete_ids,]
+todo_df <- todo_df[-incomplete_ids,]
+todo_df <- todo_df[order(todo_df$Version),]
+```
 
-build_todo_table()
+### Features
+
+```{r}
+todo_df |> 
+  tt(theme = "grid") |>
+  style_tt(fontsize = 0.9) |>
+  style_tt(i = 0, align = "c") |>
+  style_tt(j = c(1, 2, 3, 4), align = "c")
+```
+
+### To Do / Roadmap
+
+```{r}
+incomplete |>
+  tt(theme = "grid") |>
+  style_tt(fontsize = 0.9) |>
+  style_tt(i = 0, align = "c") |>
+  style_tt(j = c(1, 2, 3, 4), align = "c")
 ```
