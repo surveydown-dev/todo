@@ -42,10 +42,10 @@ file with an updated table.
 | Question type - Single checkbox with on and off toggle switches | [shinyWidgets - Single Checkbox](https://github.com/dreamRs/shinyWidgets?tab=readme-ov-file#single-checkbox) |  |  |
 | Question type - Tree inputs | [shinyWidgets - Tree](https://github.com/dreamRs/shinyWidgets?tab=readme-ov-file#tree) |  |  |
 | Question type of select menu - Dropdown select type with multiple selections | [shinyWidgets - Select Menu](https://github.com/dreamRs/shinyWidgets?tab=readme-ov-file#select-menu) |  |  |
-| Define questions using an external yml file |  |  | [132](https://github.com/orgs/surveydown-dev/discussions/132) |
+| Define questions using an external `yml` file |  |  | [132](https://github.com/orgs/surveydown-dev/discussions/132) |
 | Header / footer on every survey page |  |  |  |
-| sd_store_data() function - store any values generated *after* survey launches in the db |  |  |  |
-| sd_server(print_mode = TRUE) - Trigger the print feature | [Refer to {renderthis}](https://github.com/jhelvy/renderthis/blob/main/R/pdf.R) |  |  |
+| `sd_store_data()` function - store any values generated *after* survey launches in the `db` |  |  |  |
+| `sd_server(print_mode = TRUE)` - Trigger the print feature | [Refer to {renderthis}](https://github.com/jhelvy/renderthis/blob/main/R/pdf.R) |  |  |
 | Clipboard problem - quarto-html-after-body div in quarto |  |  |  |
 | Enter key JS bug - not working if a conditional problem is shown |  |  |  |
 | `skip_if()` split into `skip_forward()` and `skip_backward()`. | [Issue 169](https://github.com/surveydown-dev/surveydown/issues/169#issuecomment-2611211412) |  |  |
