@@ -31,7 +31,7 @@ file with an updated table.
 | Custom languages / messages for system messages | [System Translations](https://surveydown.org/manuals/system-translations) | v0.4.2 | [134](https://github.com/orgs/surveydown-dev/discussions/134) |
 | Store session ID in browser cookies to store user progress if they refresh the page | [Cookies](https://surveydown.org/manuals/server-options#cookie) | v0.6.0 |  |
 | Custom question type to enable custom html widgets | [Custom Questions](https://surveydown.org/manuals/custom-questions) | v0.7.2 | [111](https://github.com/orgs/surveydown-dev/discussions/111) |
-| Dashboard page with password login to preview / download data / pause survey, etc. | \[Dashboard\](<https://surveydown.org/manuals/dashboard> | v0.8.0 |  |
+| Dashboard page with password login to preview / download data / pause survey, etc. | [Dashboard](https://surveydown.org/manuals/dashboard) | v0.8.0 |  |
 | Footer on every survey page |  | v0.8.0 |  |
 
 ### To Do / Roadmap
