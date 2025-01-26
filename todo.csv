@@ -1,32 +1,32 @@
 Progress,Feature,Docs,Version,Discussion
-1,Wide variety of question types,[Question Types](https://surveydown.org/question-types),v0.0.1,"[105](https://github.com/orgs/surveydown-dev/discussions/105), [109](https://github.com/orgs/surveydown-dev/discussions/109)"
-1,Ability to conditionally display questions,[Conditional Display](https://surveydown.org/conditional-control#conditional-display),v0.0.1,
-1,Ability to conditionally skip to pages,[Conditional Skipping](https://surveydown.org/conditional-control#conditional-skipping),v0.0.1,
-1,Markdown formatting for options and buttons,[Markdown Formatting](https://surveydown.org/question-formatting#markdown-formatting),v0.0.1,
-1,Require specific questions or all questions be answered,[Required Questions](https://surveydown.org/server-options#required-questions),v0.0.2,
-1,Support for bootstrap themes,[Themes](https://surveydown.org/survey-components#changing-the-look-and-feel),v0.0.4,
-1,Customizable scss theme file,[Themes](https://surveydown.org/survey-components#changing-the-look-and-feel),v0.0.4,
-1,Ability to Ignore the database connection,[Supabase Ignore](https://surveydown.org/store-data#ignoring-the-supabase-connection),v0.0.8,
+1,Wide variety of question types,[Question Types](https://surveydown.org/manuals/question-types),v0.0.1,"[105](https://github.com/orgs/surveydown-dev/discussions/105), [109](https://github.com/orgs/surveydown-dev/discussions/109)"
+1,Ability to conditionally display questions,[Conditional Display](https://surveydown.org/manuals/conditional-control#conditional-display),v0.0.1,
+1,Ability to conditionally skip to pages,[Conditional Skipping](https://surveydown.org/manuals/conditional-control#conditional-skipping),v0.0.1,
+1,Markdown formatting for options and buttons,[Markdown Formatting](https://surveydown.org/manuals/question-formatting#markdown-formatting),v0.0.1,
+1,Require specific questions or all questions be answered,[Required Questions](https://surveydown.org/manuals/server-options#required-questions),v0.0.2,
+1,Support for bootstrap themes,[Themes](https://surveydown.org/manuals/survey-components#changing-the-look-and-feel),v0.0.4,
+1,Customizable scss theme file,[Themes](https://surveydown.org/manuals/survey-components#changing-the-look-and-feel),v0.0.4,
+1,Ability to Ignore the database connection,[Supabase Ignore](https://surveydown.org/manuals/store-data#ignoring-the-supabase-connection),v0.0.8,
 1,Time stamps recorded for each question and page interaction,,v0.0.9,
-1,Progress bar that updates on each question interaction,[Progress Bar](https://surveydown.org/survey-components#progress-bar),v0.0.9,
-1,Customizable progress bar color and position on page,[Progress Bar](https://surveydown.org/survey-components#progress-bar),v0.0.9,
-1,Ability to use latest survey results in the survey itself,[Fetching Data](https://surveydown.org/fetch-data#reactive-fetching),v0.1.1,
-1,Pass parameters through the url e.g. to track user IDs,[Reactive Redirect](https://surveydown.org/redirect#reactive-redirect),v0.2.2,[92](https://github.com/orgs/surveydown-dev/discussions/92)
-1,Redirect users to an external url,[External Redirect](https://surveydown.org/redirect),v0.2.2,
-1,Start the survey from a specific page (helpful when editing survey),[Starting Page](https://surveydown.org/server-options#starting-page),v0.3.0,
-1,Create a random numeric completion code,[Completion Code](https://surveydown.org/reactivity#displaying-stored-values-e.g.-a-completion-code),v0.3.2,
-1,Auto scroll according to the answering progress,[Auto Scroll](https://surveydown.org/server-options#auto-scroll),v0.3.3,[104](https://github.com/surveydown-dev/surveydown/issues/104)
-1,Custom languages / messages for system messages,[System Translations](https://surveydown.org/system-translations),v0.4.2,[134](https://github.com/orgs/surveydown-dev/discussions/134)
-1,Store session ID in browser cookies to store user progress if they refresh the page,[Cookies](https://surveydown.org/server-options#cookie),v0.6.0,
-1,Custom question type to enable custom html widgets,[Custom Questions](https://surveydown.org/custom-questions),v0.7.2,[111](https://github.com/orgs/surveydown-dev/discussions/111)
-0,Admin page with password login to preview / download data pause survey etc.,[Admin Page](https://surveydown.org/server-options#admin-page),,
-0,Form validation (limit input based on question type),,,[125](https://github.com/orgs/surveydown-dev/discussions/125)
+1,Progress bar that updates on each question interaction,[Progress Bar](https://surveydown.org/manuals/survey-components#progress-bar),v0.0.9,
+1,Customizable progress bar color and position on page,[Progress Bar](https://surveydown.org/manuals/survey-components#progress-bar),v0.0.9,
+1,Ability to use latest survey results in the survey itself,[Fetching Data](https://surveydown.org/manuals/fetch-data#reactive-fetching),v0.1.1,
+1,Pass parameters through the url e.g. to track user IDs,[Reactive Redirect](https://surveydown.org/manuals/redirect#reactive-redirect),v0.2.2,[92](https://github.com/orgs/surveydown-dev/discussions/92)
+1,Redirect users to an external url,[External Redirect](https://surveydown.org/manuals/redirect),v0.2.2,
+1,Start the survey from a specific page (helpful when editing survey),[Starting Page](https://surveydown.org/manuals/server-options#starting-page),v0.3.0,
+1,Create a random numeric completion code,[Completion Code](https://surveydown.org/manuals/reactivity#displaying-stored-values-e.g.-a-completion-code),v0.3.2,
+1,Auto scroll according to the answering progress,[Auto Scroll](https://surveydown.org/manuals/server-options#auto-scroll),v0.3.3,[104](https://github.com/surveydown-dev/surveydown/issues/104)
+1,Custom languages / messages for system messages,[System Translations](https://surveydown.org/manuals/system-translations),v0.4.2,[134](https://github.com/orgs/surveydown-dev/discussions/134)
+1,Store session ID in browser cookies to store user progress if they refresh the page,[Cookies](https://surveydown.org/manuals/server-options#cookie),v0.6.0,
+1,Custom question type to enable custom html widgets,[Custom Questions](https://surveydown.org/manuals/custom-questions),v0.7.2,[111](https://github.com/orgs/surveydown-dev/discussions/111)
+1,"Dashboard page with password login to preview / download data / pause survey, etc.",[Dashboard](https://surveydown.org/manuals/dashboard,v0.8.0,
+1,Footer on every survey page,,v0.8.0,
+0,"Form validation (limit input based on question type, limit value range for numeric type)",,,[125](https://github.com/orgs/surveydown-dev/discussions/125)
 0,Question type - Best worst,[Best-worst Discussion](https://github.com/orgs/surveydown-dev/discussions/127),,[127](https://github.com/orgs/surveydown-dev/discussions/127)
 0,Question type - Single checkbox with on and off toggle switches,[shinyWidgets - Single Checkbox](https://github.com/dreamRs/shinyWidgets?tab=readme-ov-file#single-checkbox),,
 0,Question type - Tree inputs,[shinyWidgets - Tree](https://github.com/dreamRs/shinyWidgets?tab=readme-ov-file#tree),,
 0,Question type of select menu - Dropdown select type with multiple selections,[shinyWidgets - Select Menu](https://github.com/dreamRs/shinyWidgets?tab=readme-ov-file#select-menu),,
 0,Define questions using an external `yml` file,,,[132](https://github.com/orgs/surveydown-dev/discussions/132)
-0,Header / footer on every survey page,,,
 0,`sd_store_data()` function - store any values generated *after* survey launches in the `db`,,,
 0,`sd_server(print_mode = TRUE)` - Trigger the print feature,[Refer to {renderthis}](https://github.com/jhelvy/renderthis/blob/main/R/pdf.R),,
 0,Clipboard problem - quarto-html-after-body div in quarto,,,
