@@ -33,4 +33,4 @@ Progress,Feature,Docs,Version,Discussion
 0,Enter key JS bug - not working if a conditional problem is shown,,,
 0,`skip_if()` split into `skip_forward()` and `skip_backward()`,[Issue 169](https://github.com/surveydown-dev/surveydown/issues/169#issuecomment-2611211412),,
 0,Bug - cannot make `matrix` questions required,[Issue 170](https://github.com/surveydown-dev/surveydown/issues/170#issuecomment-2621673999),,
-,Make the `gssencmode` argument optional in `sd_db_connect()`,[Issue 174](https://github.com/surveydown-dev/surveydown/issues/174#issuecomment-2621695487),,
+0,Make the `gssencmode` argument optional in `sd_db_connect()`,[Issue 174](https://github.com/surveydown-dev/surveydown/issues/174#issuecomment-2621695487),,
