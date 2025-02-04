@@ -27,7 +27,7 @@ Progress,Feature,Docs,Version,Discussion
 0,Question type - Tree inputs,[shinyWidgets - Tree](https://github.com/dreamRs/shinyWidgets?tab=readme-ov-file#tree),,
 0,Question type of select menu - Dropdown select type with multiple selections,[shinyWidgets - Select Menu](https://github.com/dreamRs/shinyWidgets?tab=readme-ov-file#select-menu),,
 0,Define questions using an external `yml` file,,,[132](https://github.com/orgs/surveydown-dev/discussions/132)
-0,`sd_store_data()` function - store any values generated *after* survey launches in the `db`,,,
+0,`sd_store_data()` function - store any values generated *after* survey launches in the `db`,,,[178](https://github.com/surveydown-dev/surveydown/issues/178)
 0,`sd_server(print_mode = TRUE)` - Trigger the print feature,[Refer to {renderthis}](https://github.com/jhelvy/renderthis/blob/main/R/pdf.R),,
 0,Clipboard problem - quarto-html-after-body div in quarto,,,
 0,Enter key JS bug - not working if a conditional problem is shown,,,
