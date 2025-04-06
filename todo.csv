@@ -10,7 +10,7 @@ Progress,Feature,Docs,Version,Discussion
 1,Progress bar that updates on each question interaction,[Progress Bar](https://surveydown.org/docs/basic-components#progress-bar),v0.0.9,
 1,Customizable progress bar color and position on page,[Progress Bar](https://surveydown.org/docs/basic-components#progress-bar),v0.0.9,
 1,Ability to use latest survey results in the survey itself,[Fetching Data](https://surveydown.org/docs/fetch-data#reactive-fetching),v0.1.1,
-1,Pass parameters through the url e.g. to track user IDs,[Reactive Redirect](https://surveydown.org/docs/external-redirect#reactive-redirect,v0.2.2,[92](https://github.com/orgs/surveydown-dev/discussions/92)
+1,Pass parameters through the url e.g. to track user IDs,[Reactive Redirect](https://surveydown.org/docs/external-redirect#reactive-redirect),v0.2.2,[92](https://github.com/orgs/surveydown-dev/discussions/92)
 1,Redirect users to an external url,[External Redirect](https://surveydown.org/docs/external-redirect),v0.2.2,
 1,Start the survey from a specific page (helpful when editing survey),[Starting Page](https://surveydown.org/docs/server-options#starting-page),v0.3.0,
 1,Create a random numeric completion code,[Completion Code](https://surveydown.org/docs/reactivity#displaying-stored-values-e.g.-a-completion-code),v0.3.2,
