@@ -20,16 +20,17 @@ Progress,Feature,Docs,Version,Discussion
 1,Custom question type to enable custom html widgets,[Custom Questions](https://surveydown.org/docs/custom-questions),v0.7.2,[111](https://github.com/orgs/surveydown-dev/discussions/111)
 1,"Dashboard page with password login to preview / download data / pause survey, etc.",[Dashboard](https://surveydown.org/docs/dashboard),v0.8.0,
 1,Footer on every survey page,,v0.8.0,
+1,Change `skip_if()` to `skip_forward()`,[Conditional Logic](https://surveydown.org/docs/conditional-logic#conditional-navigation-of-pages),v0.9.0,[Issue 169](https://github.com/surveydown-dev/surveydown/issues/169#issuecomment-2611211412)
+1,Define questions using an external `yml` file,[Defining Questions](https://surveydown.org/docs/defining-questions.html#using-a-yaml-file),v0.12.0,[132](https://github.com/orgs/surveydown-dev/discussions/132)
 0,"Form validation (limit input based on question type, limit value range for numeric type)",,,[125](https://github.com/orgs/surveydown-dev/discussions/125)
-0,Question type - Best worst,[Best-worst Discussion](https://github.com/orgs/surveydown-dev/discussions/127),,[127](https://github.com/orgs/surveydown-dev/discussions/127)
+0,Question type - Best worst,,,[127](https://github.com/orgs/surveydown-dev/discussions/127)
 0,Question type - Single checkbox with on and off toggle switches,[shinyWidgets - Single Checkbox](https://github.com/dreamRs/shinyWidgets?tab=readme-ov-file#single-checkbox),,
 0,Question type - Tree inputs,[shinyWidgets - Tree](https://github.com/dreamRs/shinyWidgets?tab=readme-ov-file#tree),,
 0,Question type of select menu - Dropdown select type with multiple selections,[shinyWidgets - Select Menu](https://github.com/dreamRs/shinyWidgets?tab=readme-ov-file#select-menu),,
-0,Define questions using an external `yml` file,,,[132](https://github.com/orgs/surveydown-dev/discussions/132)
 0,`sd_store_data()` function - store any values generated *after* survey launches in the `db`,,,[178](https://github.com/surveydown-dev/surveydown/issues/178)
-0,`sd_server(print_mode = TRUE)` - Trigger the print feature,[Refer to {renderthis}](https://github.com/jhelvy/renderthis/blob/main/R/pdf.R),,
+0,"Trigger print to pdf mode, e.g., `sd_server(print_mode = TRUE)` ",,,[Look at {renderthis}](https://github.com/jhelvy/renderthis/blob/main/R/pdf.R)
 0,Clipboard problem - quarto-html-after-body div in quarto,,,
 0,Enter key JS bug - not working if a conditional problem is shown,,,
-0,`skip_if()` split into `skip_forward()` and `skip_backward()`,[Issue 169](https://github.com/surveydown-dev/surveydown/issues/169#issuecomment-2611211412),,
-0,Bug - cannot make `matrix` questions required,[Issue 170](https://github.com/surveydown-dev/surveydown/issues/170#issuecomment-2621673999),,
-0,Make the `gssencmode` argument optional in `sd_db_connect()`,[Issue 174](https://github.com/surveydown-dev/surveydown/issues/174#issuecomment-2621695487),,
+0,Consider ability to skip backwards (debated if needed),,,[Issue 169](https://github.com/surveydown-dev/surveydown/issues/169#issuecomment-2611211412)
+0,Bug - cannot make `matrix` questions required,,,[Issue 170](https://github.com/surveydown-dev/surveydown/issues/170#issuecomment-2621673999)
+0,Make the `gssencmode` argument optional in `sd_db_connect()`,,,[Issue 174](https://github.com/surveydown-dev/surveydown/issues/174#issuecomment-2621695487)
