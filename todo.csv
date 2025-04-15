@@ -21,7 +21,7 @@ Progress,Feature,Docs,Version,Discussion
 1,"Dashboard page with password login to preview / download data / pause survey, etc.",[Dashboard](https://surveydown.org/docs/dashboard),v0.8.0,
 1,Footer on every survey page,,v0.8.0,
 1,Change `skip_if()` to `skip_forward()`,[Conditional Logic](https://surveydown.org/docs/conditional-logic#conditional-navigation-of-pages),v0.9.0,[Issue 169](https://github.com/surveydown-dev/surveydown/issues/169#issuecomment-2611211412)
-1,Define questions using an external `yml` file,[Defining Questions](https://surveydown.org/docs/defining-questions.html#using-a-yaml-file),v0.12.0,[132](https://github.com/orgs/surveydown-dev/discussions/132)
+1,Define questions using an external `yml` file,[Defining Questions](https://surveydown.org/docs/defining-questions.html#using-a-yaml-file),v0.11.0,[132](https://github.com/orgs/surveydown-dev/discussions/132)
 0,"Form validation (limit input based on question type, limit value range for numeric type)",,,[125](https://github.com/orgs/surveydown-dev/discussions/125)
 0,Question type - Best worst,,,[127](https://github.com/orgs/surveydown-dev/discussions/127)
 0,Question type - Single checkbox with on and off toggle switches,[shinyWidgets - Single Checkbox](https://github.com/dreamRs/shinyWidgets?tab=readme-ov-file#single-checkbox),,
