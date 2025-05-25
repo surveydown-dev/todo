@@ -22,15 +22,22 @@ Progress,Feature,Docs,Version,Discussion
 1,Footer on every survey page,,v0.8.0,
 1,Change `skip_if()` to `skip_forward()`,[Conditional Logic](https://surveydown.org/docs/conditional-logic#conditional-navigation-of-pages),v0.9.0,[Issue 169](https://github.com/surveydown-dev/surveydown/issues/169#issuecomment-2611211412)
 1,Define questions using an external `yml` file,[Defining Questions](https://surveydown.org/docs/defining-questions.html#using-a-yaml-file),v0.11.0,[132](https://github.com/orgs/surveydown-dev/discussions/132)
-0,"Form validation (limit input based on question type, limit value range for numeric type)",,,[125](https://github.com/orgs/surveydown-dev/discussions/125)
-0,Question type - Best worst,,,[127](https://github.com/orgs/surveydown-dev/discussions/127)
-0,Question type - Single checkbox with on and off toggle switches,[shinyWidgets - Single Checkbox](https://github.com/dreamRs/shinyWidgets?tab=readme-ov-file#single-checkbox),,
-0,Question type - Tree inputs,[shinyWidgets - Tree](https://github.com/dreamRs/shinyWidgets?tab=readme-ov-file#tree),,
-0,Question type of select menu - Dropdown select type with multiple selections,[shinyWidgets - Select Menu](https://github.com/dreamRs/shinyWidgets?tab=readme-ov-file#select-menu),,
-0,`sd_store_data()` function - store any values generated *after* survey launches in the `db`,,,[178](https://github.com/surveydown-dev/surveydown/issues/178)
-0,"Trigger print to pdf mode, e.g., `sd_server(print_mode = TRUE)` ",,,[Look at {renderthis}](https://github.com/jhelvy/renderthis/blob/main/R/pdf.R)
-0,Clipboard problem - quarto-html-after-body div in quarto,,,
-0,Enter key JS bug - not working if a conditional problem is shown,,,
-0,Consider ability to skip backwards (debated if needed),,,[Issue 169](https://github.com/surveydown-dev/surveydown/issues/169#issuecomment-2611211412)
-0,Bug - cannot make `matrix` questions required,,,[Issue 170](https://github.com/surveydown-dev/surveydown/issues/170#issuecomment-2621673999)
-0,Make the `gssencmode` argument optional in `sd_db_connect()`,,,[Issue 174](https://github.com/surveydown-dev/surveydown/issues/174#issuecomment-2621695487)
+2,"Form validation (limit input based on question type, limit value range for numeric type)",,,[125](https://github.com/orgs/surveydown-dev/discussions/125)
+2,Question type - Best worst,,,[127](https://github.com/orgs/surveydown-dev/discussions/127)
+2,Question type - Single checkbox with on and off toggle switches,[shinyWidgets - Single Checkbox](https://github.com/dreamRs/shinyWidgets?tab=readme-ov-file#single-checkbox),,
+2,Question type - Tree inputs,[shinyWidgets - Tree](https://github.com/dreamRs/shinyWidgets?tab=readme-ov-file#tree),,
+2,Question type of select menu - Dropdown select type with multiple selections,[shinyWidgets - Select Menu](https://github.com/dreamRs/shinyWidgets?tab=readme-ov-file#select-menu),,
+2,`sd_store_data()` function - store any values generated *after* survey launches in the `db`,,,[178](https://github.com/surveydown-dev/surveydown/issues/178)
+2,"Trigger print to pdf mode, e.g., `sd_server(print_mode = TRUE)` ",,,[Look at {renderthis}](https://github.com/jhelvy/renderthis/blob/main/R/pdf.R)
+2,Clipboard problem - quarto-html-after-body div in quarto,,,
+2,Enter key JS bug - not working if a conditional problem is shown,,,
+2,Consider ability to skip backwards (debated if needed),,,[Issue 169](https://github.com/surveydown-dev/surveydown/issues/169#issuecomment-2611211412)
+2,Bug - cannot make `matrix` questions required,,,[Issue 170](https://github.com/surveydown-dev/surveydown/issues/170#issuecomment-2621673999)
+2,Make the `gssencmode` argument optional in `sd_db_connect()`,,,[Issue 174](https://github.com/surveydown-dev/surveydown/issues/174#issuecomment-2621695487)
+3,GUI support for survey construction with pre-defined templates,,v0.0.1,
+3,Drag-n-drop for pages and contents,,v0.0.1,
+3,Deleting and modifying for existing elements,,v0.0.1,
+3,Live-preview of the working survey,,v0.0.1,
+4,Support for martix type,,,
+4,Support for reactive questions,,,
+4,Support for conditional skipping and showing,,,
