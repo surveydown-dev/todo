@@ -13,39 +13,22 @@ knitr::opts_chunk$set(
   echo       = FALSE
 )
 
-library(tinytable)
+source("functions.R")
 ```
 
 This repo is for keeping track of package features as we build them out. The only file that needs to be updated is the [df.csv](https://github.com/surveydown-dev/todo/blob/main/df.csv) file. With each update, a GitHub action runs to re-build this README file with an updated table.
 
 ```{r}
 # Read in the complete list
-df <- read.csv("df.csv", check.names = FALSE)
+df <- read.csv("todo.csv", check.names = FALSE)
 
-# Separate dataframes by Progress value
-feature_ids <- which(df$Progress == 1)
-todo_ids <- which(df$Progress == 2)
-feature_apps_ids <- which(df$Progress == 3)
-todo_apps_ids <- which(df$Progress == 4)
-
-# Remove Progress column
-df$Progress <- NULL
-
-# Create separate dataframes
-feature_df <- df[feature_ids,]
-todo_df <- df[todo_ids,]
-feature_apps_df <- df[feature_apps_ids,]
-todo_apps_df <- df[todo_apps_ids,]
-
-# Order feature dataframes by Version
-feature_df <- feature_df[order(feature_df$Version),]
-feature_apps_df <- feature_apps_df[order(feature_apps_df$Version),]
+df_list <- get_todo_dfs(df)
 ```
 
 ### Features - surveydown
 
 ```{r}
-feature_df |> 
+df_list$df_feature_pkg |> 
   tt(theme = "grid") |>
   style_tt(fontsize = 0.9) |>
   style_tt(i = 0, align = "c") |>
@@ -55,7 +38,7 @@ feature_df |>
 ### To Do - surveydown
 
 ```{r}
-todo_df |>
+df_list$df_todo_pkg |>
   tt(theme = "grid") |>
   style_tt(fontsize = 0.9) |>
   style_tt(i = 0, align = "c") |>
@@ -65,7 +48,7 @@ todo_df |>
 ### Features - sdApps
 
 ```{r}
-feature_apps_df |> 
+df_list$df_feature_apps |> 
   tt(theme = "grid") |>
   style_tt(fontsize = 0.9) |>
   style_tt(i = 0, align = "c") |>
@@ -75,7 +58,7 @@ feature_apps_df |>
 ### To Do - sdApps
 
 ```{r}
-todo_apps_df |>
+df_list$df_todo_apps |>
   tt(theme = "grid") |>
   style_tt(fontsize = 0.9) |>
   style_tt(i = 0, align = "c") |>
