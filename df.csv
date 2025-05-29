@@ -1,6 +1,6 @@
 Progress,Feature,Docs,Version,Discussion
 1,Wide variety of question types,[Question Types](https://surveydown.org/docs/question-types),v0.0.1,"[105](https://github.com/orgs/surveydown-dev/discussions/105), [109](https://github.com/orgs/surveydown-dev/discussions/109)"
-1,Conditional logic capability,[Conditional Display](https://surveydown.org/docs/conditional-logic),v0.0.1,
+1,Conditionally show questions or pages,[Conditional Display](https://surveydown.org/docs/conditional-logic),v0.0.1,
 1,Markdown formatting for options and buttons,[Markdown Formatting](https://surveydown.org/docs/question-formatting#markdown-formatting),v0.0.1,
 1,Require specific questions or all questions be answered,[Required Questions](https://surveydown.org/docs/server-options#required-questions),v0.0.2,
 1,Support for bootstrap themes,[Themes](https://surveydown.org/docs/basic-components#appearance-settings),v0.0.4,
@@ -20,7 +20,7 @@ Progress,Feature,Docs,Version,Discussion
 1,Custom question type to enable custom html widgets,[Custom Questions](https://surveydown.org/docs/custom-questions),v0.7.2,[111](https://github.com/orgs/surveydown-dev/discussions/111)
 1,"Dashboard page with password login to preview / download data / pause survey, etc.",[Dashboard](https://surveydown.org/docs/dashboard),v0.8.0,
 1,Footer on every survey page,,v0.8.0,
-1,Change `skip_if()` to `skip_forward()`,[Conditional Logic](https://surveydown.org/docs/conditional-logic#conditional-navigation-of-pages),v0.9.0,[Issue 169](https://github.com/surveydown-dev/surveydown/issues/169#issuecomment-2611211412)
+1,Conditionally skip to a forward page with `skip_forward()`,[Conditional Logic](https://surveydown.org/docs/conditional-logic#conditional-navigation-of-pages),v0.9.0,[Issue 169](https://github.com/surveydown-dev/surveydown/issues/169#issuecomment-2611211412)
 1,Define questions using an external `yml` file,[Defining Questions](https://surveydown.org/docs/defining-questions.html#using-a-yaml-file),v0.11.0,[132](https://github.com/orgs/surveydown-dev/discussions/132)
 2,"Form validation (limit input based on question type, limit value range for numeric type)",,,[125](https://github.com/orgs/surveydown-dev/discussions/125)
 2,Question type - Best worst,,,[127](https://github.com/orgs/surveydown-dev/discussions/127)
@@ -31,7 +31,7 @@ Progress,Feature,Docs,Version,Discussion
 2,"Trigger print to pdf mode, e.g., `sd_server(print_mode = TRUE)` ",,,[Look at {renderthis}](https://github.com/jhelvy/renderthis/blob/main/R/pdf.R)
 2,Clipboard problem - quarto-html-after-body div in quarto,,,
 2,Enter key JS bug - not working if a conditional problem is shown,,,
-2,Consider ability to skip backwards (debated if needed),,,[Issue 169](https://github.com/surveydown-dev/surveydown/issues/169#issuecomment-2611211412)
+2,Ability to skip backwards (debated if needed),,,[Issue 169](https://github.com/surveydown-dev/surveydown/issues/169#issuecomment-2611211412)
 2,Bug - cannot make `matrix` questions required,,,[Issue 170](https://github.com/surveydown-dev/surveydown/issues/170#issuecomment-2621673999)
 2,Make the `gssencmode` argument optional in `sd_db_connect()`,,,[Issue 174](https://github.com/surveydown-dev/surveydown/issues/174#issuecomment-2621695487)
 3,GUI support for survey construction with pre-defined templates,,v0.0.1,
