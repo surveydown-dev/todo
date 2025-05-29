@@ -19,8 +19,8 @@ get_todo_dfs <- function(df) {
   df_todo_apps <- df[ids_todo_apps,]
   
   # Order feature dataframes by Version
-  df_feature_pkg <- df_feature_pkg[order(df_feature_pkg$Version),]
-  df_feature_apps <- df_feature_apps[order(df_feature_apps$Version),]
+  df_feature_pkg <- df_feature_pkg[order(numeric_version(sub("^v", "", df_feature_pkg$Version))),]
+  df_feature_apps <- df_feature_apps[order(numeric_version(sub("^v", "", df_feature_apps$Version))),]
 
   return(list(
     df_feature_pkg = df_feature_pkg,
