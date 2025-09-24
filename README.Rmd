@@ -45,20 +45,20 @@ df_list$df_todo_pkg |>
   style_tt(j = c(1, 2, 3, 4), align = "c")
 ```
 
-### Features - sdApps
+### Features - sdstudio
 
 ```{r}
-df_list$df_feature_apps |> 
+df_list$df_feature_studio |> 
   tt(theme = "grid") |>
   style_tt(fontsize = 0.9) |>
   style_tt(i = 0, align = "c") |>
   style_tt(j = c(1, 2, 3, 4), align = "c")
 ```
 
-### To Do - sdApps
+### To Do - sdstudio
 
 ```{r}
-df_list$df_todo_apps |>
+df_list$df_todo_studio |>
   tt(theme = "grid") |>
   style_tt(fontsize = 0.9) |>
   style_tt(i = 0, align = "c") |>
