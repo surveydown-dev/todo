@@ -15,13 +15,12 @@ Types](https://surveydown.org/docs/question-types) v0.0.1
 [105](https://github.com/orgs/surveydown-dev/discussions/105),
 [109](https://github.com/orgs/surveydown-dev/discussions/109)  
 Conditionally show questions [Conditional
-Display](https://surveydown.org/docs/conditional-logic) v0.0.1  
+Logic](https://surveydown.org/docs/conditional-logic) v0.0.1  
 Markdown formatting for options and buttons [Markdown
 Formatting](https://surveydown.org/docs/question-formatting#markdown-formatting)
 v0.0.1  
-Require specific questions or all questions be answered [Required
-Questions](https://surveydown.org/docs/server-options#required-questions)
-v0.0.2  
+Require specific questions or all questions be answered [Survey
+Settings](https://surveydown.org/docs/survey-settings.html) v0.0.2  
 Support for bootstrap themes
 [Themes](https://surveydown.org/docs/basic-components#appearance-settings)
 v0.0.4  
@@ -36,50 +35,57 @@ Progress bar that updates on each question interaction [Progress
 Bar](https://surveydown.org/docs/basic-components#progress-bar) v0.0.9  
 Customizable progress bar color and position on page [Progress
 Bar](https://surveydown.org/docs/basic-components#progress-bar) v0.0.9  
-Ability to use latest survey results in the survey itself [Fetching
-Data](https://surveydown.org/docs/fetch-data#reactive-fetching) v0.1.1  
+Ability to use latest survey results in the survey itself [Live-polling
+Data](https://surveydown.org/docs/fetching-data.html#live-polling-data)
+v0.1.1  
 Pass parameters through the url e.g. to track user IDs [Reactive
 Redirect](https://surveydown.org/docs/external-redirect#reactive-redirect)
 v0.2.2 [92](https://github.com/orgs/surveydown-dev/discussions/92)  
 Redirect users to an external url [External
 Redirect](https://surveydown.org/docs/external-redirect) v0.2.2  
 Start the survey from a specific page (helpful when editing survey)
-[Starting
-Page](https://surveydown.org/docs/server-options#starting-page) v0.3.0  
+[Survey Settings](https://surveydown.org/docs/survey-settings.html)
+v0.3.0  
 Create a random numeric completion code [Completion
 Code](https://surveydown.org/docs/reactivity#displaying-stored-values-e.g.-a-completion-code)
 v0.3.2  
-Auto scroll according to the answering progress [Auto
-Scroll](https://surveydown.org/docs/server-options#auto-scroll) v0.3.3
+Auto scroll according to the answering progress [Survey
+Settings](https://surveydown.org/docs/survey-settings.html) v0.3.3
 [104](https://github.com/surveydown-dev/surveydown/issues/104)  
 Custom languages / messages for system messages [System
-Translations](https://surveydown.org/docs/system-translations) v0.4.2
-[134](https://github.com/orgs/surveydown-dev/discussions/134)  
+Language](https://surveydown.org/docs/survey-settings.html#system-language)
+v0.4.2 [134](https://github.com/orgs/surveydown-dev/discussions/134)  
 Store session ID in browser cookies to store user progress if they
-refresh the page
-[Cookies](https://surveydown.org/docs/server-options#cookies) v0.6.0  
+refresh the page [Survey
+Settings](https://surveydown.org/docs/survey-settings.html) v0.6.0  
 Custom question type to enable custom html widgets [Custom
 Questions](https://surveydown.org/docs/custom-questions) v0.7.2
 [111](https://github.com/orgs/surveydown-dev/discussions/111)  
 Dashboard page with password login to preview / download data / pause
-survey, etc. [Dashboard](https://surveydown.org/docs/dashboard) v0.8.0  
+survey, etc.
+[sdstudio](https://surveydown.org/docs/sdstudio.html#monitoring-survey-responses)
+v0.8.0  
 Footer on every survey page v0.8.0  
 Conditionally skip to a forward page with `skip_forward()` [Conditional
-Logic](https://surveydown.org/docs/conditional-logic#conditional-navigation-of-pages)
-v0.9.0 [Issue
+Logic](https://surveydown.org/docs/conditional-logic.html) v0.9.0 [Issue
 169](https://github.com/surveydown-dev/surveydown/issues/169#issuecomment-2611211412)  
 Define questions using an external `yml` file [Defining
 Questions](https://surveydown.org/docs/defining-questions.html#using-a-yaml-file)
 v0.11.0 [132](https://github.com/orgs/surveydown-dev/discussions/132)  
 Conditionally show pages [Conditional
-Display](https://surveydown.org/docs/conditional-logic) v0.11.1
+Logic](https://surveydown.org/docs/conditional-logic) v0.11.1  
+Form validation (limit input based on question type, limit value range
+for numeric type) [Conditional
+Stopping](https://surveydown.org/docs/conditional-logic.html#conditional-stopping)
+v0.13.2 [125](https://github.com/orgs/surveydown-dev/discussions/125)  
+Ability to skip backwards [Survey
+Settings](https://surveydown.org/docs/survey-settings.html) v0.15.0
+[Issue
+169](https://github.com/surveydown-dev/surveydown/issues/169#issuecomment-2611211412)
 
 ### To Do - surveydown
 
 Feature Docs Version Discussion  
-Form validation (limit input based on question type, limit value range
-for numeric type)
-[125](https://github.com/orgs/surveydown-dev/discussions/125)  
 Question type - Best worst
 [127](https://github.com/orgs/surveydown-dev/discussions/127)  
 Question type - Single checkbox with on and off toggle switches
@@ -96,13 +102,7 @@ launches in the `db`
 Trigger print to pdf mode, e.g., `sd_server(print_mode = TRUE)` [Look at
 {renderthis}](https://github.com/jhelvy/renderthis/blob/main/R/pdf.R)  
 Clipboard problem - quarto-html-after-body div in quarto  
-Enter key JS bug - not working if a conditional problem is shown  
-Ability to skip backwards (debated if needed) [Issue
-169](https://github.com/surveydown-dev/surveydown/issues/169#issuecomment-2611211412)  
-Bug - cannot make `matrix` questions required [Issue
-170](https://github.com/surveydown-dev/surveydown/issues/170#issuecomment-2621673999)  
-Make the `gssencmode` argument optional in `sd_db_connect()` [Issue
-174](https://github.com/surveydown-dev/surveydown/issues/174#issuecomment-2621695487)
+Enter key JS bug - not working if a conditional problem is shown
 
 ### Features - sdstudio
 
