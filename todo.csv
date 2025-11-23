@@ -31,8 +31,6 @@ pkg,todo,Question type - Tree inputs,[shinyWidgets - Tree](https://github.com/dr
 pkg,todo,Question type of select menu - Dropdown select type with multiple selections,[shinyWidgets - Select Menu](https://github.com/dreamRs/shinyWidgets?tab=readme-ov-file#select-menu),,
 pkg,todo,`sd_store_data()` function - store any values generated *after* survey launches in the `db`,,,[178](https://github.com/surveydown-dev/surveydown/issues/178)
 pkg,todo,"Trigger print to pdf mode, e.g., `sd_server(print_mode = TRUE)` ",,,[Look at {renderthis}](https://github.com/jhelvy/renderthis/blob/main/R/pdf.R)
-pkg,todo,Clipboard problem - quarto-html-after-body div in quarto,,,
-pkg,todo,Enter key JS bug - not working if a conditional problem is shown,,,
 studio,feature,GUI support for survey construction with pre-defined templates,,v0.0.1,
 studio,feature,Drag-n-drop for pages and contents,,v0.0.1,
 studio,feature,Deleting and modifying for existing elements,,v0.0.1,
